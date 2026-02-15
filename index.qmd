@@ -27,8 +27,7 @@ toc: false
       </div>
       <div class="col-lg-5 d-none d-lg-block">
         <div class="hero-image-wrapper">
-          <!-- TODO: Profilbild ersetzen – Datei in images/ ablegen und src anpassen -->
-          <img src="images/profil.jpg" alt="Kerstin Bücker" class="hero-image">
+          <img src="images/kerstin.jpeg" alt="Kerstin Bücker" class="hero-image">
         </div>
       </div>
     </div>
