@@ -123,14 +123,6 @@ toc: false
       <li>KI in der Kommunikation – ChatGPT, Prompt Engineering und KI-gestützte Workflows</li>
     </ul>
 
-    <!-- ========== SPRACHEN ========== -->
-    <h2 class="section-title" style="font-size: 1.4rem; margin-top: 3rem; margin-bottom: 2rem;">Sprachen</h2>
-
-    <ul class="weiterbildung-list">
-      <li>Englisch – fließend</li>
-      <li>Französisch – gut (Erasmus-Aufenthalt in Rennes)</li>
-    </ul>
-
   </div>
 </section>
 ```
