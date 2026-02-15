@@ -1,33 +1,33 @@
 /*-- scss:defaults --*/
 
-// Color palette: Warm Coral/Terracotta
-$warm-50:    #faf6f3;
-$warm-100:   #f5ede7;
-$warm-200:   #e8d8cc;
-$warm-300:   #d4b8a5;
-$warm-400:   #b09080;
-$warm-500:   #8d7265;
-$warm-600:   #6b564c;
-$warm-700:   #4d3d36;
-$warm-800:   #3a2e2a;
-$warm-900:   #2b2d42;
+// Color palette: Dark Blue base with Teal/Petrol accent
+$slate-50:   #f8fafc;
+$slate-100:  #f1f5f9;
+$slate-200:  #e2e8f0;
+$slate-300:  #cbd5e1;
+$slate-400:  #94a3b8;
+$slate-500:  #64748b;
+$slate-600:  #475569;
+$slate-700:  #334155;
+$slate-800:  #1e293b;
+$slate-900:  #0f172a;
 
-$accent:     #e07a5f;
-$accent-dark: #c75540;
+$accent:     #14b8a6;
+$accent-dark: #0d9488;
 
 // Bootstrap overrides
-$primary:       $warm-900;
-$secondary:     $warm-500;
+$primary:       $slate-900;
+$secondary:     $slate-500;
 $body-bg:       #ffffff;
-$body-color:    $warm-700;
-$link-color:    $warm-800;
+$body-color:    $slate-700;
+$link-color:    $slate-800;
 $link-hover-color: $accent;
 
 // Typography
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $font-size-base: 1rem;
 $line-height-base: 1.7;
-$headings-color: $warm-900;
+$headings-color: $slate-900;
 $headings-font-weight: 700;
 
 // Navbar
@@ -46,7 +46,7 @@ $border-radius-lg: 0.75rem;
 // NAVBAR
 // ============================================================
 .navbar {
-  background-color: $warm-900 !important;
+  background-color: $slate-900 !important;
   padding: 0.8rem 0;
   letter-spacing: 0.01em;
 
@@ -71,7 +71,7 @@ $border-radius-lg: 0.75rem;
 // HERO SECTION
 // ============================================================
 .hero {
-  background-color: $warm-900;
+  background-color: $slate-900;
   color: #ffffff;
   padding: 5rem 0 6rem;
   position: relative;
@@ -91,7 +91,7 @@ $border-radius-lg: 0.75rem;
 
 .hero-label {
   font-size: 0.95rem;
-  color: $warm-400;
+  color: $slate-400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
@@ -109,7 +109,7 @@ $border-radius-lg: 0.75rem;
 .hero-tagline {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: $warm-300;
+  color: $slate-300;
   max-width: 540px;
   margin-bottom: 2rem;
 }
@@ -140,8 +140,8 @@ $border-radius-lg: 0.75rem;
 
 .btn-hero-secondary {
   display: inline-block;
-  border: 1px solid $warm-600;
-  color: $warm-300;
+  border: 1px solid $slate-600;
+  color: $slate-300;
   padding: 0.7rem 1.8rem;
   border-radius: 0.4rem;
   text-decoration: none;
@@ -167,7 +167,7 @@ $border-radius-lg: 0.75rem;
   height: 260px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid $warm-700;
+  border: 3px solid $slate-700;
 }
 
 // ============================================================
@@ -178,18 +178,18 @@ $border-radius-lg: 0.75rem;
 }
 
 .section-alt {
-  background-color: $warm-50;
+  background-color: $slate-50;
 }
 
 .section-dark {
-  background-color: $warm-900;
+  background-color: $slate-900;
   color: #ffffff;
 }
 
 .section-title {
   font-size: 2rem;
   font-weight: 800;
-  color: $warm-900;
+  color: $slate-900;
   margin-bottom: 0.5rem;
 }
 
@@ -199,13 +199,13 @@ $border-radius-lg: 0.75rem;
 
 .section-subtitle {
   font-size: 1.05rem;
-  color: $warm-500;
+  color: $slate-500;
   margin-bottom: 3rem;
   max-width: 600px;
 }
 
 .section-dark .section-subtitle {
-  color: $warm-400;
+  color: $slate-400;
 }
 
 .accent-line {
@@ -221,7 +221,7 @@ $border-radius-lg: 0.75rem;
 .about-text {
   font-size: 1.08rem;
   line-height: 1.8;
-  color: $warm-600;
+  color: $slate-600;
   max-width: 720px;
 }
 
@@ -246,7 +246,7 @@ $border-radius-lg: 0.75rem;
 
 .about-fact-label {
   font-size: 0.8rem;
-  color: $warm-400;
+  color: $slate-400;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.1rem;
@@ -255,7 +255,7 @@ $border-radius-lg: 0.75rem;
 .about-fact-value {
   font-size: 0.95rem;
   font-weight: 600;
-  color: $warm-800;
+  color: $slate-800;
 }
 
 // ============================================================
@@ -269,7 +269,7 @@ $border-radius-lg: 0.75rem;
 
 .skill-card {
   background: #ffffff;
-  border: 1px solid $warm-200;
+  border: 1px solid $slate-200;
   border-radius: 0.6rem;
   padding: 1.8rem;
   transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
@@ -277,7 +277,7 @@ $border-radius-lg: 0.75rem;
 
 .skill-card:hover {
   border-color: $accent;
-  box-shadow: 0 8px 24px rgba(224, 122, 95, 0.1);
+  box-shadow: 0 8px 24px rgba(20, 184, 166, 0.1);
   transform: translateY(-3px);
 }
 
@@ -291,13 +291,13 @@ $border-radius-lg: 0.75rem;
 .skill-card-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: $warm-900;
+  color: $slate-900;
   margin-bottom: 0.5rem;
 }
 
 .skill-card-text {
   font-size: 0.9rem;
-  color: $warm-500;
+  color: $slate-500;
   line-height: 1.6;
   margin: 0;
 }
@@ -352,7 +352,7 @@ $border-radius-lg: 0.75rem;
 .logo-marquee-label {
   font-size: 0.85rem;
   font-weight: 600;
-  color: $warm-500;
+  color: $slate-500;
 }
 
 .logo-marquee-text-placeholder {
@@ -363,12 +363,12 @@ $border-radius-lg: 0.75rem;
   justify-content: center;
   font-size: 0.95rem;
   font-weight: 700;
-  color: $warm-400;
+  color: $slate-400;
   letter-spacing: 0.02em;
   margin-bottom: 0.4rem;
-  border: 1px solid $warm-200;
+  border: 1px solid $slate-200;
   border-radius: 0.4rem;
-  background: $warm-50;
+  background: $slate-50;
 }
 
 // ============================================================
@@ -385,15 +385,15 @@ $border-radius-lg: 0.75rem;
   align-items: center;
   gap: 1rem;
   padding: 1.2rem 1.5rem;
-  background: $warm-800;
+  background: $slate-800;
   border-radius: 0.5rem;
   text-decoration: none;
-  color: $warm-300;
+  color: $slate-300;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .contact-item:hover {
-  background: $warm-700;
+  background: $slate-700;
   color: #ffffff;
 }
 
@@ -404,7 +404,7 @@ $border-radius-lg: 0.75rem;
 
 .contact-item-label {
   font-size: 0.8rem;
-  color: $warm-400;
+  color: $slate-400;
 }
 
 .contact-item-value {
@@ -416,7 +416,7 @@ $border-radius-lg: 0.75rem;
 // DETAIL PAGES
 // ============================================================
 .page-header {
-  background-color: $warm-900;
+  background-color: $slate-900;
   color: #ffffff;
   padding: 3rem 0;
   margin-bottom: 3rem;
@@ -430,7 +430,7 @@ $border-radius-lg: 0.75rem;
 }
 
 .page-header p {
-  color: $warm-400;
+  color: $slate-400;
   font-size: 1.05rem;
   margin: 0;
 }
@@ -450,7 +450,7 @@ $border-radius-lg: 0.75rem;
   top: 0;
   bottom: 0;
   width: 2px;
-  background: $warm-200;
+  background: $slate-200;
 }
 
 .timeline-item {
@@ -484,19 +484,19 @@ $border-radius-lg: 0.75rem;
 .timeline-role {
   font-size: 1.1rem;
   font-weight: 700;
-  color: $warm-900;
+  color: $slate-900;
   margin-bottom: 0.2rem;
 }
 
 .timeline-org {
   font-size: 0.95rem;
-  color: $warm-500;
+  color: $slate-500;
   margin-bottom: 0.5rem;
 
   a {
-    color: $warm-500;
+    color: $slate-500;
     text-decoration: underline;
-    text-decoration-color: $warm-300;
+    text-decoration-color: $slate-300;
     text-underline-offset: 2px;
     transition: color 0.2s ease, text-decoration-color 0.2s ease;
 
@@ -509,7 +509,7 @@ $border-radius-lg: 0.75rem;
 
 .timeline-desc {
   font-size: 0.9rem;
-  color: $warm-600;
+  color: $slate-600;
   line-height: 1.6;
 }
 
@@ -528,12 +528,12 @@ $border-radius-lg: 0.75rem;
   align-items: center;
   text-align: center;
   padding: 1.5rem 1rem;
-  border: 1px solid $warm-100;
+  border: 1px solid $slate-100;
   border-radius: 0.6rem;
   transition: border-color 0.25s ease, transform 0.25s ease;
 
   &:hover {
-    border-color: $warm-300;
+    border-color: $slate-300;
     transform: translateY(-2px);
   }
 }
@@ -546,7 +546,7 @@ $border-radius-lg: 0.75rem;
   justify-content: center;
   font-size: 1.1rem;
   font-weight: 700;
-  color: $warm-400;
+  color: $slate-400;
   letter-spacing: 0.02em;
   margin-bottom: 1rem;
 }
@@ -554,13 +554,13 @@ $border-radius-lg: 0.75rem;
 .logo-label {
   font-size: 0.9rem;
   font-weight: 700;
-  color: $warm-700;
+  color: $slate-700;
   margin-bottom: 0.15rem;
 }
 
 .logo-industry {
   font-size: 0.78rem;
-  color: $warm-400;
+  color: $slate-400;
 }
 
 // ============================================================
@@ -575,9 +575,9 @@ $border-radius-lg: 0.75rem;
     position: relative;
     padding: 0.6rem 0 0.6rem 1.5rem;
     font-size: 0.95rem;
-    color: $warm-600;
+    color: $slate-600;
     line-height: 1.6;
-    border-bottom: 1px solid $warm-100;
+    border-bottom: 1px solid $slate-100;
 
     &:last-child {
       border-bottom: none;
@@ -620,9 +620,9 @@ $border-radius-lg: 0.75rem;
 // FOOTER
 // ============================================================
 .nav-footer {
-  background-color: $warm-900 !important;
-  color: $warm-400;
-  border-top: 1px solid $warm-800;
+  background-color: $slate-900 !important;
+  color: $slate-400;
+  border-top: 1px solid $slate-800;
   padding: 1.5rem 0;
   font-size: 0.85rem;
 }

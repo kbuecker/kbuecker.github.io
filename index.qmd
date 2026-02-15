@@ -255,7 +255,7 @@ toc: false
         </div>
       </a>
 
-      <a href="https://www.linkedin.com/in/kerstin-b%C3%BCcker-97934058/" class="contact-item" target="_blank" rel="noopener">
+      <a href="https://www.linkedin.com/in/kerstin-b%C3%BCcker-45b5aaa1/" class="contact-item" target="_blank" rel="noopener">
         <i class="bi bi-linkedin contact-item-icon"></i>
         <div>
           <div class="contact-item-label">LinkedIn</div>
