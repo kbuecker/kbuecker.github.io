@@ -1,0 +1,142 @@
+---
+pagetitle: "Seminare · Kerstin Bücker"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<section class="page-header">
+  <div class="container">
+    <h1>Seminare &amp; Workshops</h1>
+    <p>Praxisnahe Trainings für Kommunikation, Social Media und KI</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     THEMEN
+     ============================================================ -->
+<section class="section">
+  <div class="container">
+    <div class="accent-line"></div>
+    <h2 class="section-title">Themen</h2>
+    <p class="section-subtitle">Alle Seminare mit Fokus auf Öffentlichkeitsarbeit &amp; Kommunikation</p>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="bi bi-robot skill-card-icon"></i>
+        <div class="skill-card-title">ChatGPT &amp; KI</div>
+        <p class="skill-card-text">
+          Wie lässt sich Künstliche Intelligenz sinnvoll in der Öffentlichkeitsarbeit
+          einsetzen? In diesem Seminar lernen Sie, wie ChatGPT und andere KI-Tools
+          bei Texterstellung, Ideenfindung und Kommunikationsplanung unterstützen.
+          Mit praktischen Übungen und realistischer Einordnung von Chancen und Grenzen.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-phone skill-card-icon"></i>
+        <div class="skill-card-title">Social Media</div>
+        <p class="skill-card-text">
+          Von Instagram über Facebook und TikTok bis LinkedIn&nbsp;– in diesem Seminar
+          erarbeiten Sie eine fundierte Social-Media-Strategie für Ihre Organisation.
+          Themen: Plattformwahl, Redaktionsplanung, Content-Formate, Storytelling
+          und Erfolgsmessung.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-newspaper skill-card-icon"></i>
+        <div class="skill-card-title">Pressearbeit</div>
+        <p class="skill-card-text">
+          Grundlagen und Praxis der Medienarbeit: Pressemitteilungen schreiben,
+          Medienkontakte aufbauen und pflegen, Pressekonferenzen vorbereiten.
+          Profitieren Sie von meiner journalistischen Erfahrung und lernen Sie,
+          wie Sie Ihre Themen in die Medien bringen.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-palette skill-card-icon"></i>
+        <div class="skill-card-title">Canva</div>
+        <p class="skill-card-text">
+          Professionelle Grafiken für Social Media und Print&nbsp;– auch ohne
+          Designausbildung. In diesem praxisorientierten Workshop lernen Sie
+          Canva von Grund auf kennen: Vorlagen, Branding, Formate und Tipps
+          für den Arbeitsalltag.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-camera-video skill-card-icon"></i>
+        <div class="skill-card-title">Videoschnitt</div>
+        <p class="skill-card-text">
+          Kurzvideos, Reels und Stories für Social Media produzieren&nbsp;– mit
+          Tools wie CapCut. Von der Aufnahme über den Schnitt bis zur
+          Veröffentlichung: praxisnahe Anleitungen für wirkungsvolle
+          Social-Media-Videos.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-people skill-card-icon"></i>
+        <div class="skill-card-title">Community Management</div>
+        <p class="skill-card-text">
+          Wie gelingt der Dialog mit der Community? In diesem Seminar geht es
+          um Interaktion, Moderation, Krisenprävention und den Aufbau von
+          Reichweite in sozialen Netzwerken. Mit Best Practices und konkreten
+          Handlungsempfehlungen.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     KUNDEN / REFERENZEN
+     ============================================================ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="accent-line"></div>
+    <h2 class="section-title">Kunden &amp; Referenzen</h2>
+    <p class="section-subtitle">Organisationen und Zielgruppen, für die ich Seminare durchführe</p>
+
+    <div class="logo-grid">
+      <div class="logo-item">
+        <div class="logo-text-placeholder">KAS</div>
+        <div class="logo-label">Konrad-Adenauer-Stiftung</div>
+        <div class="logo-industry">Politische Stiftung</div>
+      </div>
+      <div class="logo-item">
+        <div class="logo-text-placeholder">KPV NRW</div>
+        <div class="logo-label">KPV Nordrhein-Westfalen</div>
+        <div class="logo-industry">Kommunalpolitik</div>
+      </div>
+      <div class="logo-item">
+        <div class="logo-text-placeholder">KPV NDS</div>
+        <div class="logo-label">KPV Niedersachsen</div>
+        <div class="logo-industry">Kommunalpolitik</div>
+      </div>
+      <div class="logo-item">
+        <div class="logo-text-placeholder">OV</div>
+        <div class="logo-label">Politische Ortsverbände</div>
+        <div class="logo-industry">Kommunalpolitik</div>
+      </div>
+      <div class="logo-item">
+        <div class="logo-text-placeholder">BW</div>
+        <div class="logo-label">Bundeswehr</div>
+        <div class="logo-industry">Öffentlicher Dienst</div>
+      </div>
+      <div class="logo-item">
+        <div class="logo-text-placeholder">BT CDU</div>
+        <div class="logo-label">Dt. Bundestag CDU</div>
+        <div class="logo-industry">Politik</div>
+      </div>
+      <div class="logo-item">
+        <div class="logo-text-placeholder"><i class="bi bi-person"></i></div>
+        <div class="logo-label">Einzelpersonen</div>
+        <div class="logo-industry">Beratung &amp; Coaching</div>
+      </div>
+    </div>
+  </div>
+</section>
+```

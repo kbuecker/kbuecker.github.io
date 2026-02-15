@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Kerstin Bücker"
+  site-url: "https://kbuecker.github.io"
+  navbar:
+    background: dark
+    foreground: light
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Seminare"
+        href: seminare.qmd
+      - text: "Lebenslauf"
+        href: cv.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kerstin-b%C3%BCcker-97934058/
+        aria-label: LinkedIn
+      - icon: envelope-fill
+        href: mailto:kerstin@buecker.ms
+        aria-label: E-Mail
+  page-footer:
+    center: "&copy; 2026 Kerstin Bücker &middot; Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [default, custom.scss]
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    lang: de

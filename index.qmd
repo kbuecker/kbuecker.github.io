@@ -1,0 +1,268 @@
+---
+pagetitle: "Kerstin Bücker · Kommunikationsstrategin & Trainerin"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <p class="hero-label">Kommunikationsstrategin · Trainerin</p>
+        <h1 class="hero-title">Kerstin Bücker</h1>
+        <p class="hero-tagline">
+          Zwischen Strategie und Praxis braucht es eine Brücke.
+          Ich verbinde Kommunikation, Social Media und KI mit
+          konkreter Wirkung&nbsp;– in Seminaren, Beratung und
+          Öffentlichkeitsarbeit.
+        </p>
+        <div class="hero-actions">
+          <a href="seminare.html" class="btn-hero-primary">Seminare</a>
+          <a href="#kontakt" class="btn-hero-secondary">Kontakt</a>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="hero-image-wrapper">
+          <!-- TODO: Profilbild ersetzen – Datei in images/ ablegen und src anpassen -->
+          <img src="images/profil.jpg" alt="Kerstin Bücker" class="hero-image">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ÜBER MICH
+     ============================================================ -->
+<section id="ueber-mich" class="section">
+  <div class="container">
+    <div class="accent-line"></div>
+    <h2 class="section-title">Über mich</h2>
+    <p class="section-subtitle">Kommunikation mit Haltung und Handwerk</p>
+
+    <p class="about-text">
+      Als ausgebildete Journalistin und erfahrene Kommunikationsstrategin bringe ich
+      Botschaften auf den Punkt&nbsp;– ob in der Pressearbeit, auf Social Media oder in
+      Seminaren. Mein Fokus liegt auf der Schnittstelle von strategischer Kommunikation,
+      digitalen Medien und den Möglichkeiten von KI-Tools.
+    </p>
+    <p class="about-text">
+      In meinen Trainings und Workshops befähige ich Organisationen und Einzelpersonen,
+      ihre Öffentlichkeitsarbeit zeitgemäß und wirkungsvoll zu gestalten.
+    </p>
+
+    <div class="about-facts">
+      <div class="about-fact">
+        <i class="bi bi-megaphone about-fact-icon"></i>
+        <div>
+          <div class="about-fact-label">Kommunikation</div>
+          <div class="about-fact-value">Unternehmenskommunikation &amp; Öffentlichkeitsarbeit</div>
+        </div>
+      </div>
+      <div class="about-fact">
+        <i class="bi bi-easel about-fact-icon"></i>
+        <div>
+          <div class="about-fact-label">Training</div>
+          <div class="about-fact-value">Seminare &amp; Workshops zu Social Media &amp; KI</div>
+        </div>
+      </div>
+      <div class="about-fact">
+        <i class="bi bi-newspaper about-fact-icon"></i>
+        <div>
+          <div class="about-fact-label">Journalismus</div>
+          <div class="about-fact-value">Volontariat &amp; Europa-Korrespondenz (KNA Brüssel)</div>
+        </div>
+      </div>
+      <div class="about-fact">
+        <i class="bi bi-mortarboard about-fact-icon"></i>
+        <div>
+          <div class="about-fact-label">Studium</div>
+          <div class="about-fact-value">Magistra Artium, Uni Münster &amp; Sciences Po Rennes</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     KOMPETENZEN
+     ============================================================ -->
+<section id="kompetenzen" class="section section-alt">
+  <div class="container">
+    <div class="accent-line"></div>
+    <h2 class="section-title">Kompetenzen</h2>
+    <p class="section-subtitle">Themen, die ich in Seminaren und Beratung abdecke</p>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="bi bi-robot skill-card-icon"></i>
+        <div class="skill-card-title">ChatGPT &amp; KI</div>
+        <p class="skill-card-text">
+          Einsatz von KI-Tools wie ChatGPT in der Öffentlichkeitsarbeit.
+          Texte, Ideen und Strategien effizient entwickeln&nbsp;– mit einem klaren
+          Blick auf Chancen und Grenzen.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-phone skill-card-icon"></i>
+        <div class="skill-card-title">Social Media</div>
+        <p class="skill-card-text">
+          Strategien und Content für Instagram, Facebook, TikTok und LinkedIn.
+          Von der Redaktionsplanung über Formate bis zur Erfolgsmessung.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-newspaper skill-card-icon"></i>
+        <div class="skill-card-title">Pressearbeit</div>
+        <p class="skill-card-text">
+          Medienarbeit, Pressemitteilungen und Aufbau von Medienbeziehungen.
+          Journalistische Erfahrung für wirkungsvolle Öffentlichkeitsarbeit.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-palette skill-card-icon"></i>
+        <div class="skill-card-title">Canva</div>
+        <p class="skill-card-text">
+          Visuelle Gestaltung für Social Media und Print mit Canva.
+          Professionelle Ergebnisse ohne Designstudium&nbsp;– praxisnah
+          und sofort umsetzbar.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-camera-video skill-card-icon"></i>
+        <div class="skill-card-title">Videoschnitt</div>
+        <p class="skill-card-text">
+          Videobearbeitung mit Tools wie CapCut für Social-Media-Formate.
+          Reels, Kurzvideos und Stories professionell und effizient produzieren.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <i class="bi bi-people skill-card-icon"></i>
+        <div class="skill-card-title">Community Management</div>
+        <p class="skill-card-text">
+          Interaktion, Moderation und Reichweitenaufbau in sozialen Netzwerken.
+          Communitys aktivieren und in den Dialog bringen.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     REFERENZEN (Marquee)
+     ============================================================ -->
+<section id="referenzen" class="section">
+  <div class="container">
+    <div class="accent-line"></div>
+    <h2 class="section-title">Referenzen</h2>
+    <p class="section-subtitle">Organisationen, für die ich arbeite und gearbeitet habe</p>
+
+    <div class="logo-marquee">
+      <div class="logo-marquee-track">
+        <!-- Set 1 -->
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">KAS</div>
+          <div class="logo-marquee-label">Konrad-Adenauer-Stiftung</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">KPV NRW</div>
+          <div class="logo-marquee-label">KPV Nordrhein-Westfalen</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">KPV NDS</div>
+          <div class="logo-marquee-label">KPV Niedersachsen</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">BW</div>
+          <div class="logo-marquee-label">Bundeswehr</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">BT CDU</div>
+          <div class="logo-marquee-label">Dt. Bundestag CDU</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">FKH</div>
+          <div class="logo-marquee-label">Fachklinik Hornheide</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">Bistum MS</div>
+          <div class="logo-marquee-label">Bistum Münster</div>
+        </div>
+        <!-- Set 2 (duplicate for seamless loop) -->
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">KAS</div>
+          <div class="logo-marquee-label">Konrad-Adenauer-Stiftung</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">KPV NRW</div>
+          <div class="logo-marquee-label">KPV Nordrhein-Westfalen</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">KPV NDS</div>
+          <div class="logo-marquee-label">KPV Niedersachsen</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">BW</div>
+          <div class="logo-marquee-label">Bundeswehr</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">BT CDU</div>
+          <div class="logo-marquee-label">Dt. Bundestag CDU</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">FKH</div>
+          <div class="logo-marquee-label">Fachklinik Hornheide</div>
+        </div>
+        <div class="logo-marquee-item">
+          <div class="logo-marquee-text-placeholder">Bistum MS</div>
+          <div class="logo-marquee-label">Bistum Münster</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-cta">
+      <a href="seminare.html" class="link-arrow">Alle Seminare ansehen &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     KONTAKT
+     ============================================================ -->
+<section id="kontakt" class="section section-dark">
+  <div class="container">
+    <div class="accent-line"></div>
+    <h2 class="section-title">Kontakt</h2>
+    <p class="section-subtitle">
+      Interesse an einem Seminar oder einer Zusammenarbeit? Ich freue mich auf Ihre Nachricht.
+    </p>
+
+    <div class="contact-grid">
+      <a href="mailto:kerstin@buecker.ms" class="contact-item">
+        <i class="bi bi-envelope contact-item-icon"></i>
+        <div>
+          <div class="contact-item-label">E-Mail</div>
+          <div class="contact-item-value">kerstin@buecker.ms</div>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/kerstin-b%C3%BCcker-97934058/" class="contact-item" target="_blank" rel="noopener">
+        <i class="bi bi-linkedin contact-item-icon"></i>
+        <div>
+          <div class="contact-item-label">LinkedIn</div>
+          <div class="contact-item-value">Kerstin Bücker</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+```

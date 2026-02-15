@@ -1,0 +1,136 @@
+---
+pagetitle: "Lebenslauf · Kerstin Bücker"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<section class="page-header">
+  <div class="container">
+    <h1>Lebenslauf</h1>
+    <p>Berufliche Stationen und Qualifikationen</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width: 750px;">
+
+    <!-- ========== AKTUELLE POSITIONEN ========== -->
+    <h2 class="section-title" style="font-size: 1.4rem; margin-bottom: 2rem;">Aktuelle Positionen</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">Seit Januar 2023</div>
+        <div class="timeline-role">Unternehmenskommunikation</div>
+        <div class="timeline-org">Fachklinik Hornheide · Münster</div>
+        <div class="timeline-desc">
+          Verantwortung für die gesamte Unternehmenskommunikation der Fachklinik:
+          Pressearbeit, Social Media, interne Kommunikation und Öffentlichkeitsarbeit.
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">Seit September 2014</div>
+        <div class="timeline-role">Selbstständige Trainerin</div>
+        <div class="timeline-org">Seminare &amp; Workshops</div>
+        <div class="timeline-desc">
+          Konzeption und Durchführung von Seminaren und Workshops zu Social Media,
+          KI-Tools (ChatGPT), Pressearbeit, Canva, Videoschnitt und Community Management.
+          Kunden u.&thinsp;a.: Konrad-Adenauer-Stiftung, KPV, Bundeswehr, Deutscher Bundestag CDU.
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== BERUFSERFAHRUNG ========== -->
+    <h2 class="section-title" style="font-size: 1.4rem; margin-top: 3rem; margin-bottom: 2rem;">Berufserfahrung</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">Januar 2016 – Dezember 2022</div>
+        <div class="timeline-role">Redakteurin Digitale &amp; Interne Kommunikation</div>
+        <div class="timeline-org">Bistum Münster</div>
+        <div class="timeline-desc">
+          Aufbau und Betreuung der digitalen Kommunikationskanäle. Redaktionelle
+          Verantwortung für interne und externe Kommunikation.
+          Social-Media-Strategie und Content-Produktion.
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">Juli 2014 – Dezember 2015</div>
+        <div class="timeline-role">Europa-Korrespondentin</div>
+        <div class="timeline-org">Katholische Nachrichten-Agentur (KNA) · Brüssel</div>
+        <div class="timeline-desc">
+          Berichterstattung aus Brüssel über EU-Politik, europäische Institutionen
+          und Kirchenpolitik für die KNA.
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">August 2012 – Juni 2014</div>
+        <div class="timeline-role">Referentin</div>
+        <div class="timeline-org">Konrad-Adenauer-Stiftung</div>
+        <div class="timeline-desc">
+          Konzeption und Durchführung von Bildungsprogrammen und Veranstaltungen
+          im Bereich politische Kommunikation.
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">Oktober 2010 – Juli 2012</div>
+        <div class="timeline-role">Volontariat</div>
+        <div class="timeline-org">Institut zur Förderung publizistischen Nachwuchses (ifp)</div>
+        <div class="timeline-desc">
+          Journalistisches Volontariat mit Stationen in Print-, Online- und
+          Agenturjournalismus. Ausbildung in allen journalistischen Darstellungsformen.
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== AUSBILDUNG ========== -->
+    <h2 class="section-title" style="font-size: 1.4rem; margin-top: 3rem; margin-bottom: 2rem;">Ausbildung</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2004 – 2010</div>
+        <div class="timeline-role">Magistra Artium</div>
+        <div class="timeline-org">Westfälische Wilhelms-Universität Münster</div>
+        <div class="timeline-desc">
+          Studium der Kommunikationswissenschaft, Politikwissenschaft und
+          Romanistik (Französisch).
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2006 – 2007</div>
+        <div class="timeline-role">Erasmus-Aufenthalt</div>
+        <div class="timeline-org">Sciences Po Rennes · Frankreich</div>
+        <div class="timeline-desc">
+          Auslandsstudium an der Sciences Po Rennes mit Schwerpunkt
+          Politikwissenschaft und europäische Studien.
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== WEITERBILDUNG ========== -->
+    <h2 class="section-title" style="font-size: 1.4rem; margin-top: 3rem; margin-bottom: 2rem;">Weiterbildung</h2>
+
+    <ul class="weiterbildung-list">
+      <li>Führungsakademie – Führungskompetenz und Managementqualifikation</li>
+      <li>Zertifizierte Webinar-Trainerin – digitale Seminarformate professionell gestalten</li>
+      <li>Krisenkommunikation – Strategien für den Ernstfall</li>
+      <li>Social-Media-Management – Vertiefung Plattformstrategien und Analytics</li>
+      <li>KI in der Kommunikation – ChatGPT, Prompt Engineering und KI-gestützte Workflows</li>
+    </ul>
+
+    <!-- ========== SPRACHEN ========== -->
+    <h2 class="section-title" style="font-size: 1.4rem; margin-top: 3rem; margin-bottom: 2rem;">Sprachen</h2>
+
+    <ul class="weiterbildung-list">
+      <li>Englisch – fließend</li>
+      <li>Französisch – gut (Erasmus-Aufenthalt in Rennes)</li>
+    </ul>
+
+  </div>
+</section>
+```

@@ -1,0 +1,686 @@
+/*-- scss:defaults --*/
+
+// Color palette: Warm Coral/Terracotta
+$warm-50:    #faf6f3;
+$warm-100:   #f5ede7;
+$warm-200:   #e8d8cc;
+$warm-300:   #d4b8a5;
+$warm-400:   #b09080;
+$warm-500:   #8d7265;
+$warm-600:   #6b564c;
+$warm-700:   #4d3d36;
+$warm-800:   #3a2e2a;
+$warm-900:   #2b2d42;
+
+$accent:     #e07a5f;
+$accent-dark: #c75540;
+
+// Bootstrap overrides
+$primary:       $warm-900;
+$secondary:     $warm-500;
+$body-bg:       #ffffff;
+$body-color:    $warm-700;
+$link-color:    $warm-800;
+$link-hover-color: $accent;
+
+// Typography
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.7;
+$headings-color: $warm-900;
+$headings-font-weight: 700;
+
+// Navbar
+$navbar-dark-color:          rgba(255, 255, 255, 0.85);
+$navbar-dark-hover-color:    #ffffff;
+$navbar-dark-active-color:   #ffffff;
+$navbar-dark-brand-color:    #ffffff;
+
+// Spacing & shape
+$border-radius: 0.5rem;
+$border-radius-lg: 0.75rem;
+
+/*-- scss:rules --*/
+
+// ============================================================
+// NAVBAR
+// ============================================================
+.navbar {
+  background-color: $warm-900 !important;
+  padding: 0.8rem 0;
+  letter-spacing: 0.01em;
+
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem !important;
+    transition: color 0.2s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: $accent !important;
+  }
+}
+
+// ============================================================
+// HERO SECTION
+// ============================================================
+.hero {
+  background-color: $warm-900;
+  color: #ffffff;
+  padding: 5rem 0 6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba($accent, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.hero-label {
+  font-size: 0.95rem;
+  color: $warm-400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.hero-tagline {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: $warm-300;
+  max-width: 540px;
+  margin-bottom: 2rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-hero-primary {
+  display: inline-block;
+  background-color: $accent;
+  color: #ffffff;
+  padding: 0.7rem 1.8rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-hero-primary:hover {
+  background-color: $accent-dark;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.btn-hero-secondary {
+  display: inline-block;
+  border: 1px solid $warm-600;
+  color: $warm-300;
+  padding: 0.7rem 1.8rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-hero-secondary:hover {
+  border-color: $accent;
+  color: $accent;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero-image {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid $warm-700;
+}
+
+// ============================================================
+// GENERIC SECTIONS
+// ============================================================
+.section {
+  padding: 5rem 0;
+}
+
+.section-alt {
+  background-color: $warm-50;
+}
+
+.section-dark {
+  background-color: $warm-900;
+  color: #ffffff;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: $warm-900;
+  margin-bottom: 0.5rem;
+}
+
+.section-dark .section-title {
+  color: #ffffff;
+}
+
+.section-subtitle {
+  font-size: 1.05rem;
+  color: $warm-500;
+  margin-bottom: 3rem;
+  max-width: 600px;
+}
+
+.section-dark .section-subtitle {
+  color: $warm-400;
+}
+
+.accent-line {
+  width: 50px;
+  height: 3px;
+  background-color: $accent;
+  margin-bottom: 1.5rem;
+}
+
+// ============================================================
+// ABOUT SECTION
+// ============================================================
+.about-text {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: $warm-600;
+  max-width: 720px;
+}
+
+.about-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.about-fact {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.about-fact-icon {
+  font-size: 1.3rem;
+  color: $accent;
+  margin-top: 0.15rem;
+}
+
+.about-fact-label {
+  font-size: 0.8rem;
+  color: $warm-400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.1rem;
+}
+
+.about-fact-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: $warm-800;
+}
+
+// ============================================================
+// SKILLS / KOMPETENZEN
+// ============================================================
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background: #ffffff;
+  border: 1px solid $warm-200;
+  border-radius: 0.6rem;
+  padding: 1.8rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.skill-card:hover {
+  border-color: $accent;
+  box-shadow: 0 8px 24px rgba(224, 122, 95, 0.1);
+  transform: translateY(-3px);
+}
+
+.skill-card-icon {
+  font-size: 1.6rem;
+  color: $accent;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.skill-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $warm-900;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card-text {
+  font-size: 0.9rem;
+  color: $warm-500;
+  line-height: 1.6;
+  margin: 0;
+}
+
+// ============================================================
+// LOGO MARQUEE (Home page)
+// ============================================================
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.logo-marquee {
+  overflow: hidden;
+  width: 100%;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  padding: 1rem 0;
+
+  &:hover .logo-marquee-track {
+    animation-play-state: paused;
+  }
+}
+
+.logo-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.logo-marquee-item {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 2.5rem;
+}
+
+.logo-marquee-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: $warm-500;
+}
+
+.logo-marquee-text-placeholder {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: $warm-400;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.4rem;
+  border: 1px solid $warm-200;
+  border-radius: 0.4rem;
+  background: $warm-50;
+}
+
+// ============================================================
+// CONTACT
+// ============================================================
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1.5rem;
+  background: $warm-800;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: $warm-300;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-item:hover {
+  background: $warm-700;
+  color: #ffffff;
+}
+
+.contact-item-icon {
+  font-size: 1.4rem;
+  color: $accent;
+}
+
+.contact-item-label {
+  font-size: 0.8rem;
+  color: $warm-400;
+}
+
+.contact-item-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+// ============================================================
+// DETAIL PAGES
+// ============================================================
+.page-header {
+  background-color: $warm-900;
+  color: #ffffff;
+  padding: 3rem 0;
+  margin-bottom: 3rem;
+}
+
+.page-header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: $warm-400;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+// ============================================================
+// Timeline for CV
+// ============================================================
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: $warm-200;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2.5rem;
+  padding-left: 1.5rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0.35rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: $accent;
+  border: 2px solid #ffffff;
+  margin-left: -5px;
+}
+
+.timeline-date {
+  font-size: 0.8rem;
+  color: $accent;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-role {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $warm-900;
+  margin-bottom: 0.2rem;
+}
+
+.timeline-org {
+  font-size: 0.95rem;
+  color: $warm-500;
+  margin-bottom: 0.5rem;
+
+  a {
+    color: $warm-500;
+    text-decoration: underline;
+    text-decoration-color: $warm-300;
+    text-underline-offset: 2px;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+
+    &:hover {
+      color: $accent;
+      text-decoration-color: $accent;
+    }
+  }
+}
+
+.timeline-desc {
+  font-size: 0.9rem;
+  color: $warm-600;
+  line-height: 1.6;
+}
+
+// ============================================================
+// LOGO GRID (Referenzen on Seminare page)
+// ============================================================
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+}
+
+.logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border: 1px solid $warm-100;
+  border-radius: 0.6rem;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+
+  &:hover {
+    border-color: $warm-300;
+    transform: translateY(-2px);
+  }
+}
+
+.logo-text-placeholder {
+  width: 140px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $warm-400;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+
+.logo-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: $warm-700;
+  margin-bottom: 0.15rem;
+}
+
+.logo-industry {
+  font-size: 0.78rem;
+  color: $warm-400;
+}
+
+// ============================================================
+// WEITERBILDUNG LIST
+// ============================================================
+.weiterbildung-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: relative;
+    padding: 0.6rem 0 0.6rem 1.5rem;
+    font-size: 0.95rem;
+    color: $warm-600;
+    line-height: 1.6;
+    border-bottom: 1px solid $warm-100;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 1rem;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: $accent;
+    }
+  }
+}
+
+// ============================================================
+// SECTION CTA
+// ============================================================
+.section-cta {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.link-arrow {
+  color: $accent;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.link-arrow:hover {
+  color: $accent-dark;
+}
+
+// ============================================================
+// FOOTER
+// ============================================================
+.nav-footer {
+  background-color: $warm-900 !important;
+  color: $warm-400;
+  border-top: 1px solid $warm-800;
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+}
+
+// ============================================================
+// RESPONSIVE
+// ============================================================
+@media (max-width: 991px) {
+  .hero {
+    padding: 3rem 0 4rem;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .hero-tagline {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-image-wrapper {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .hero-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .skills-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
