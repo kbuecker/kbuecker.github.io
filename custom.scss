@@ -347,6 +347,20 @@ $border-radius-lg: 0.75rem;
   align-items: center;
   text-align: center;
   padding: 1rem 2.5rem;
+
+  img {
+    width: 120px;
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    margin-bottom: 0.6rem;
+  }
+
+  &:hover img {
+    opacity: 0.8;
+  }
 }
 
 .logo-marquee-label {
@@ -532,9 +546,23 @@ $border-radius-lg: 0.75rem;
   border-radius: 0.6rem;
   transition: border-color 0.25s ease, transform 0.25s ease;
 
+  img {
+    width: 140px;
+    height: 60px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: opacity 0.25s ease;
+    margin-bottom: 1rem;
+  }
+
   &:hover {
     border-color: $slate-300;
     transform: translateY(-2px);
+
+    img {
+      opacity: 0.85;
+    }
   }
 }
 

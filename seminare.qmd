@@ -102,34 +102,29 @@ toc: false
 
     <div class="logo-grid">
       <div class="logo-item">
-        <div class="logo-text-placeholder">KAS</div>
+        <img src="images/logos/kas.svg" alt="Konrad-Adenauer-Stiftung">
         <div class="logo-label">Konrad-Adenauer-Stiftung</div>
         <div class="logo-industry">Politische Stiftung</div>
       </div>
       <div class="logo-item">
-        <div class="logo-text-placeholder">KPV NRW</div>
+        <img src="images/logos/kpv.svg" alt="KPV">
         <div class="logo-label">KPV Nordrhein-Westfalen</div>
         <div class="logo-industry">Kommunalpolitik</div>
       </div>
       <div class="logo-item">
-        <div class="logo-text-placeholder">KPV NDS</div>
+        <img src="images/logos/kpv.svg" alt="KPV">
         <div class="logo-label">KPV Niedersachsen</div>
         <div class="logo-industry">Kommunalpolitik</div>
       </div>
       <div class="logo-item">
-        <div class="logo-text-placeholder">OV</div>
-        <div class="logo-label">Politische Ortsverbände</div>
+        <img src="images/logos/cdu.svg" alt="CDU">
+        <div class="logo-label">CDU</div>
         <div class="logo-industry">Kommunalpolitik</div>
       </div>
       <div class="logo-item">
-        <div class="logo-text-placeholder">BW</div>
+        <img src="images/logos/bundeswehr.svg" alt="Bundeswehr">
         <div class="logo-label">Bundeswehr</div>
         <div class="logo-industry">Öffentlicher Dienst</div>
-      </div>
-      <div class="logo-item">
-        <div class="logo-text-placeholder">BT CDU</div>
-        <div class="logo-label">Dt. Bundestag CDU</div>
-        <div class="logo-industry">Politik</div>
       </div>
       <div class="logo-item">
         <div class="logo-text-placeholder"><i class="bi bi-person"></i></div>
