@@ -56,31 +56,31 @@ toc: false
 
     <div class="about-facts">
       <div class="about-fact">
-        <i class="bi bi-megaphone about-fact-icon"></i>
+        <i class="bi bi-easel about-fact-icon"></i>
         <div>
-          <div class="about-fact-label">Kommunikation</div>
-          <div class="about-fact-value">Unternehmenskommunikation &amp; Öffentlichkeitsarbeit</div>
+          <div class="about-fact-label">Erfahrung</div>
+          <div class="about-fact-value">Selbstständige Trainerin seit 2014 &ndash; über 10 Jahre Seminarerfahrung</div>
         </div>
       </div>
       <div class="about-fact">
-        <i class="bi bi-easel about-fact-icon"></i>
+        <i class="bi bi-megaphone about-fact-icon"></i>
         <div>
-          <div class="about-fact-label">Training</div>
-          <div class="about-fact-value">Seminare &amp; Workshops zu Social Media &amp; KI</div>
+          <div class="about-fact-label">Expertise</div>
+          <div class="about-fact-value">Social Media, KI &amp; Unternehmenskommunikation</div>
         </div>
       </div>
       <div class="about-fact">
         <i class="bi bi-newspaper about-fact-icon"></i>
         <div>
           <div class="about-fact-label">Journalismus</div>
-          <div class="about-fact-value">Volontariat &amp; Europa-Korrespondenz (KNA Brüssel)</div>
+          <div class="about-fact-value">ifp-Volontariat &amp; Europa-Korrespondenz (KNA Brüssel)</div>
         </div>
       </div>
       <div class="about-fact">
-        <i class="bi bi-mortarboard about-fact-icon"></i>
+        <i class="bi bi-building about-fact-icon"></i>
         <div>
-          <div class="about-fact-label">Studium</div>
-          <div class="about-fact-value">Magistra Artium, Uni Münster &amp; Sciences Po Rennes</div>
+          <div class="about-fact-label">Schwerpunkt</div>
+          <div class="about-fact-value">Öffentlicher Sektor &amp; Politik</div>
         </div>
       </div>
     </div>

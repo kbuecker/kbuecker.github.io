@@ -19,7 +19,12 @@ toc: false
   <div class="container">
     <div class="accent-line"></div>
     <h2 class="section-title">Themen</h2>
-    <p class="section-subtitle">Alle Seminare mit Fokus auf Öffentlichkeitsarbeit &amp; Kommunikation</p>
+    <p class="about-text">
+      Ich biete Seminare und Workshops zu verschiedensten Themen aus den Bereichen
+      Kommunikation, Social Media und Künstliche Intelligenz an. Alle Formate sind
+      praxisorientiert und auf die Bedürfnisse der Teilnehmenden zugeschnitten&nbsp;–
+      ob als Halbtages-Workshop, Tagesseminar oder mehrteilige Schulungsreihe.
+    </p>
 
     <div class="skills-grid">
       <div class="skill-card">
@@ -98,7 +103,12 @@ toc: false
   <div class="container">
     <div class="accent-line"></div>
     <h2 class="section-title">Kunden &amp; Referenzen</h2>
-    <p class="section-subtitle">Organisationen und Zielgruppen, für die ich Seminare durchführe</p>
+    <p class="about-text">
+      Meine Kunden kommen überwiegend aus dem öffentlichen Sektor&nbsp;– von politischen
+      Stiftungen und Parteien über die Bundeswehr bis hin zu kommunalen Organisationen.
+      Darüber hinaus berate und coache ich auch Einzelpersonen, die ihre
+      Kommunikation professionalisieren möchten.
+    </p>
 
     <div class="logo-grid">
       <div class="logo-item">
