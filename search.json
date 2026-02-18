@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "kerstinweb – Claude Code Notes",
+    "section": "",
+    "text": "This site is deployed via GitHub Pages from the gh-pages branch. The _site/ output folder is gitignored and not on main.\nTo deploy changes:\nquarto publish gh-pages --no-prompt\nThis renders the site locally and pushes the output to the gh-pages branch. GitHub Pages then deploys from there (usually within ~1 minute).\nIf quarto publish fails with a missing _site/ directory error, render first:\nquarto render && quarto publish gh-pages --no-prompt --no-render\nNote: After deployment, a browser hard refresh (Cmd+Shift+R) may be needed to bypass caching.\n\n\n\n\nindex.qmd – Landing page (hero, about, skills, references, contact)\nseminare.qmd – Seminars page\ncv.qmd – CV page\ncustom.scss – All custom styles\nimages/ – Photos and logos"
+  },
+  {
+    "objectID": "CLAUDE.html#deployment",
+    "href": "CLAUDE.html#deployment",
+    "title": "kerstinweb – Claude Code Notes",
+    "section": "",
+    "text": "This site is deployed via GitHub Pages from the gh-pages branch. The _site/ output folder is gitignored and not on main.\nTo deploy changes:\nquarto publish gh-pages --no-prompt\nThis renders the site locally and pushes the output to the gh-pages branch. GitHub Pages then deploys from there (usually within ~1 minute).\nIf quarto publish fails with a missing _site/ directory error, render first:\nquarto render && quarto publish gh-pages --no-prompt --no-render\nNote: After deployment, a browser hard refresh (Cmd+Shift+R) may be needed to bypass caching."
+  },
+  {
+    "objectID": "CLAUDE.html#structure",
+    "href": "CLAUDE.html#structure",
+    "title": "kerstinweb – Claude Code Notes",
+    "section": "",
+    "text": "index.qmd – Landing page (hero, about, skills, references, contact)\nseminare.qmd – Seminars page\ncv.qmd – CV page\ncustom.scss – All custom styles\nimages/ – Photos and logos"
+  }
+]

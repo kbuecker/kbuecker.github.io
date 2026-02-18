@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kerstin.buecker.ms/cv.html</loc>
-    <lastmod>2026-02-16T07:16:18.282Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kerstin.buecker.ms/index.html</loc>
-    <lastmod>2026-02-18T20:46:56.127Z</lastmod>
+    <loc>https://kerstin.buecker.ms/CLAUDE.html</loc>
+    <lastmod>2026-02-18T21:21:44.768Z</lastmod>
   </url>
   <url>
     <loc>https://kerstin.buecker.ms/seminare.html</loc>
     <lastmod>2026-02-18T14:47:38.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kerstin.buecker.ms/index.html</loc>
+    <lastmod>2026-02-18T22:39:31.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kerstin.buecker.ms/cv.html</loc>
+    <lastmod>2026-02-16T07:16:18.282Z</lastmod>
   </url>
 </urlset>

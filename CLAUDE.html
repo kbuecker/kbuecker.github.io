@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kerstin Bücker · Kommunikationsstrategin &amp; Trainerin – Kerstin Bücker</title>
+<title>claude – Kerstin Bücker</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -92,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -123,261 +158,43 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<!-- ============================================================
-     HERO
-     ============================================================ -->
-<section class="hero">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-7">
-        <p class="hero-label">Kommunikationsstrategin · Trainerin</p>
-        <h1 class="hero-title">Kerstin Bücker</h1>
-        <p class="hero-tagline">
-          Zwischen Strategie und Praxis braucht es eine Brücke.
-          Ich verbinde Kommunikation, Social Media und KI mit
-          konkreter Wirkung&nbsp;– in Seminaren, Beratung und
-          Öffentlichkeitsarbeit.
-        </p>
-        <div class="hero-actions">
-          <a href="seminare.html" class="btn-hero-primary">Seminare</a>
-          <a href="#kontakt" class="btn-hero-secondary">Kontakt</a>
-        </div>
-      </div>
-      <div class="col-lg-5 d-none d-lg-block">
-        <div class="hero-image-wrapper">
-          <img src="images/kerstin.jpeg" alt="Kerstin Bücker" class="hero-image">
-        </div>
-      </div>
-    </div>
-  </div>
+<section id="kerstinweb-claude-code-notes" class="level1">
+<h1>kerstinweb – Claude Code Notes</h1>
+<section id="deployment" class="level2">
+<h2 data-anchor-id="deployment">Deployment</h2>
+<p>This site is deployed via GitHub Pages from the <code>gh-pages</code> branch. The <code>_site/</code> output folder is <strong>gitignored</strong> and not on <code>main</code>.</p>
+<p><strong>To deploy changes:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages <span class="at">--no-prompt</span></span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This renders the site locally and pushes the output to the <code>gh-pages</code> branch. GitHub Pages then deploys from there (usually within ~1 minute).</p>
+<p>If <code>quarto publish</code> fails with a missing <code>_site/</code> directory error, render first:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render <span class="kw">&amp;&amp;</span> <span class="ex">quarto</span> publish gh-pages <span class="at">--no-prompt</span> <span class="at">--no-render</span></span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Note:</strong> After deployment, a browser hard refresh (Cmd+Shift+R) may be needed to bypass caching.</p>
+</section>
+<section id="structure" class="level2">
+<h2 data-anchor-id="structure">Structure</h2>
+<ul>
+<li><code>index.qmd</code> – Landing page (hero, about, skills, references, contact)</li>
+<li><code>seminare.qmd</code> – Seminars page</li>
+<li><code>cv.qmd</code> – CV page</li>
+<li><code>custom.scss</code> – All custom styles</li>
+<li><code>images/</code> – Photos and logos</li>
+</ul>
+
+
+</section>
 </section>
 
-<!-- ============================================================
-     ÜBER MICH
-     ============================================================ -->
-<section id="ueber-mich" class="section">
-  <div class="container">
-    <div class="accent-line"></div>
-    <h2 class="section-title">Über mich</h2>
-    <p class="section-subtitle">Kommunikation mit Haltung und Handwerk</p>
-
-    <p class="about-text">
-      Als ausgebildete Journalistin und erfahrene Kommunikationsstrategin bringe ich
-      Botschaften auf den Punkt&nbsp;– ob in der Pressearbeit, auf Social Media oder in
-      Seminaren. Mein Fokus liegt auf der Schnittstelle von strategischer Kommunikation,
-      digitalen Medien und den Möglichkeiten von KI-Tools.
-    </p>
-    <p class="about-text">
-      In meinen Trainings und Workshops befähige ich Organisationen und Einzelpersonen,
-      ihre Öffentlichkeitsarbeit zeitgemäß und wirkungsvoll zu gestalten.
-    </p>
-
-    <div class="about-facts">
-      <div class="about-fact">
-        <i class="bi bi-easel about-fact-icon"></i>
-        <div>
-          <div class="about-fact-label">Erfahrung</div>
-          <div class="about-fact-value">10+ Jahre selbstständige Trainerin für Kommunikation &amp; Medien</div>
-        </div>
-      </div>
-      <div class="about-fact">
-        <i class="bi bi-megaphone about-fact-icon"></i>
-        <div>
-          <div class="about-fact-label">Hintergrund</div>
-          <div class="about-fact-value">Unternehmenskommunikation (Fachklinik Hornheide) &amp; Journalismus (ifp, KNA Brüssel)</div>
-        </div>
-      </div>
-      <div class="about-fact">
-        <i class="bi bi-lightbulb about-fact-icon"></i>
-        <div>
-          <div class="about-fact-label">Angebot</div>
-          <div class="about-fact-value">Seminare zu Social Media, KI, Pressearbeit, Design &amp; Video</div>
-        </div>
-      </div>
-      <div class="about-fact">
-        <i class="bi bi-building about-fact-icon"></i>
-        <div>
-          <div class="about-fact-label">Referenzen</div>
-          <div class="about-fact-value">Öffentlicher Sektor, Politik &amp; Bundeswehr</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     KOMPETENZEN
-     ============================================================ -->
-<section id="kompetenzen" class="section section-alt">
-  <div class="container">
-    <div class="accent-line"></div>
-    <h2 class="section-title">Kompetenzen</h2>
-    <p class="section-subtitle">Themen, die ich in Seminaren und Beratung abdecke</p>
-
-    <div class="skills-grid">
-      <div class="skill-card">
-        <i class="bi bi-robot skill-card-icon"></i>
-        <div class="skill-card-title">Künstliche Intelligenz</div>
-        <p class="skill-card-text">
-          Einsatz von KI-Tools wie ChatGPT in der Öffentlichkeitsarbeit.
-          Texte, Ideen und Strategien effizient entwickeln&nbsp;– mit einem klaren
-          Blick auf Chancen und Grenzen.
-        </p>
-      </div>
-
-      <div class="skill-card">
-        <i class="bi bi-phone skill-card-icon"></i>
-        <div class="skill-card-title">Social Media</div>
-        <p class="skill-card-text">
-          Strategien und Content für Instagram, Facebook, TikTok und LinkedIn.
-          Von der Redaktionsplanung über Formate bis zur Erfolgsmessung.
-        </p>
-      </div>
-
-      <div class="skill-card">
-        <i class="bi bi-newspaper skill-card-icon"></i>
-        <div class="skill-card-title">Presse- &amp; Medienarbeit</div>
-        <p class="skill-card-text">
-          Medienarbeit, Pressemitteilungen und Aufbau von Medienbeziehungen.
-          Journalistische Erfahrung für wirkungsvolle Öffentlichkeitsarbeit.
-        </p>
-      </div>
-
-      <div class="skill-card">
-        <i class="bi bi-palette skill-card-icon"></i>
-        <div class="skill-card-title">Grafik &amp; Design</div>
-        <p class="skill-card-text">
-          Visuelle Gestaltung für Social Media und Print mit Tools wie Canva.
-          Professionelle Ergebnisse ohne Designstudium&nbsp;– praxisnah
-          und sofort umsetzbar.
-        </p>
-      </div>
-
-      <div class="skill-card">
-        <i class="bi bi-camera-video skill-card-icon"></i>
-        <div class="skill-card-title">Videoproduktion</div>
-        <p class="skill-card-text">
-          Videobearbeitung mit Tools wie CapCut für Social-Media-Formate.
-          Reels, Kurzvideos und Stories professionell und effizient produzieren.
-        </p>
-      </div>
-
-      <div class="skill-card">
-        <i class="bi bi-people skill-card-icon"></i>
-        <div class="skill-card-title">Community Management</div>
-        <p class="skill-card-text">
-          Interaktion, Moderation und Reichweitenaufbau in sozialen Netzwerken.
-          Communitys aktivieren und in den Dialog bringen.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     REFERENZEN (Marquee)
-     ============================================================ -->
-<section id="referenzen" class="section">
-  <div class="container">
-    <div class="accent-line"></div>
-    <h2 class="section-title">Referenzen</h2>
-    <p class="section-subtitle">Organisationen, für die ich arbeite und gearbeitet habe</p>
-
-    <div class="logo-marquee">
-      <div class="logo-marquee-track">
-        <!-- Set 1 -->
-        <div class="logo-marquee-item">
-          <img src="images/logos/kas.svg" alt="Konrad-Adenauer-Stiftung">
-          <div class="logo-marquee-label">Konrad-Adenauer-Stiftung</div>
-        </div>
-        <div class="logo-marquee-item">
-          <img src="images/logos/kpv.svg" alt="KPV">
-          <div class="logo-marquee-label">KPV Nordrhein-Westfalen</div>
-        </div>
-        <div class="logo-marquee-item">
-          <img src="images/logos/kpv.svg" alt="KPV">
-          <div class="logo-marquee-label">KPV Niedersachsen</div>
-        </div>
-        <div class="logo-marquee-item">
-          <img src="images/logos/cdu.svg" alt="CDU">
-          <div class="logo-marquee-label">CDU</div>
-        </div>
-        <div class="logo-marquee-item">
-          <img src="images/logos/bundeswehr.svg" alt="Bundeswehr">
-          <div class="logo-marquee-label">Bundeswehr</div>
-        </div>
-        <!-- Set 2 (duplicate for seamless loop) -->
-        <div class="logo-marquee-item">
-          <img src="images/logos/kas.svg" alt="Konrad-Adenauer-Stiftung">
-          <div class="logo-marquee-label">Konrad-Adenauer-Stiftung</div>
-        </div>
-        <div class="logo-marquee-item">
-          <img src="images/logos/kpv.svg" alt="KPV">
-          <div class="logo-marquee-label">KPV Nordrhein-Westfalen</div>
-        </div>
-        <div class="logo-marquee-item">
-          <img src="images/logos/kpv.svg" alt="KPV">
-          <div class="logo-marquee-label">KPV Niedersachsen</div>
-        </div>
-        <div class="logo-marquee-item">
-          <img src="images/logos/cdu.svg" alt="CDU">
-          <div class="logo-marquee-label">CDU</div>
-        </div>
-        <div class="logo-marquee-item">
-          <img src="images/logos/bundeswehr.svg" alt="Bundeswehr">
-          <div class="logo-marquee-label">Bundeswehr</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section-cta">
-      <a href="seminare.html" class="link-arrow">Alle Seminare ansehen →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     KONTAKT
-     ============================================================ -->
-<section id="kontakt" class="section section-dark">
-  <div class="container">
-    <div class="accent-line"></div>
-    <h2 class="section-title">Kontakt</h2>
-    <p class="section-subtitle">
-      Interesse an einem Seminar oder einer Zusammenarbeit? Ich freue mich auf Ihre Nachricht.
-    </p>
-
-    <div class="contact-grid">
-      <a href="mailto:kerstin@buecker.ms" class="contact-item">
-        <i class="bi bi-envelope contact-item-icon"></i>
-        <div>
-          <div class="contact-item-label">E-Mail</div>
-          <div class="contact-item-value">kerstin@buecker.ms</div>
-        </div>
-      </a>
-
-      <a href="https://www.linkedin.com/in/kerstin-b%C3%BCcker-45b5aaa1/" class="contact-item" target="_blank" rel="noopener">
-        <i class="bi bi-linkedin contact-item-icon"></i>
-        <div>
-          <div class="contact-item-label">LinkedIn</div>
-          <div class="contact-item-value">Kerstin Bücker</div>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-
-
-
-
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
