@@ -32,7 +32,7 @@ toc: false
         <div class="skill-card-title">Künstliche Intelligenz</div>
         <p class="skill-card-text">
           Wie lässt sich KI sinnvoll in der Öffentlichkeitsarbeit einsetzen?
-          In diesem Seminar lernen Sie, wie Tools wie ChatGPT bei Texterstellung,
+          In diesem Seminar lernen die Teilnehmerinnen und Teilnehmer, wie Tools wie ChatGPT bei Texterstellung,
           Ideenfindung und Kommunikationsplanung unterstützen. Mit praktischen
           Übungen und realistischer Einordnung von Chancen und Grenzen.
         </p>
@@ -43,7 +43,7 @@ toc: false
         <div class="skill-card-title">Social Media</div>
         <p class="skill-card-text">
           Von Instagram über Facebook und TikTok bis LinkedIn&nbsp;– in diesem Seminar
-          erarbeiten Sie eine fundierte Social-Media-Strategie für Ihre Organisation.
+          erarbeiten die Teilnehmerinnen und Teilnehmer eine fundierte Social-Media-Strategie für ihre Organisation.
           Themen: Plattformwahl, Redaktionsplanung, Content-Formate, Storytelling
           und Erfolgsmessung.
         </p>
@@ -55,8 +55,8 @@ toc: false
         <p class="skill-card-text">
           Grundlagen und Praxis der Medienarbeit: Pressemitteilungen schreiben,
           Medienkontakte aufbauen und pflegen, Pressekonferenzen vorbereiten.
-          Profitieren Sie von meiner journalistischen Erfahrung und lernen Sie,
-          wie Sie Ihre Themen in die Medien bringen.
+          Die Teilnehmerinnen und Teilnehmer profitieren von meiner journalistischen Erfahrung und lernen,
+          wie sie ihre Themen in die Medien bringen.
         </p>
       </div>
 
@@ -65,7 +65,7 @@ toc: false
         <div class="skill-card-title">Grafik &amp; Design</div>
         <p class="skill-card-text">
           Professionelle Grafiken für Social Media und Print&nbsp;– auch ohne
-          Designausbildung. In diesem praxisorientierten Workshop lernen Sie
+          Designausbildung. In diesem praxisorientierten Workshop lernen die Teilnehmerinnen und Teilnehmer
           Tools wie Canva von Grund auf kennen: Vorlagen, Branding, Formate
           und Tipps für den Arbeitsalltag.
         </p>
