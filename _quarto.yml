@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Kerstin Bücker"
-  site-url: "https://kbuecker.github.io"
+  site-url: "https://kerstin.buecker.ms"
   navbar:
     background: dark
     foreground: light
